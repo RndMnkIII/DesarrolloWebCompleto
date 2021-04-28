@@ -14,6 +14,16 @@ body {
     font-family: 'Krub', sans-serif;
 }
 
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    /*font-weight: bold;*/
+   } 
+
+.titulo span {
+    font-size: 2rem;
+}
+
 .contenedor {
     width: 120rem;
     margin-top: 0;
@@ -27,19 +37,13 @@ body {
 }
 
 .navegacion-principal {
-
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .navegacion-principal a {
-    background-color: var(--primario);
-}
-
-.titulo {
-    text-align: center;
-    font-size: 3.8rem;
-    /*font-weight: bold;*/
-   } 
-
-.titulo span {
-    font-size: 2rem;
+    background-color: var(--blanco);
+    text-decoration: none;
 }
