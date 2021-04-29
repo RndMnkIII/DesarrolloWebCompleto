@@ -192,3 +192,26 @@ h1,h2,h3 {
     justify-content: space-evenly;
     align-items: center;
 }
+
+/*** Contacto ***/
+.formulario {
+    background-color: var(--gris);
+    width: min(60rem, 100%); /* utiliza el menor de los dos valores suministrados */
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.formulario fieldset {
+    border: none;
+}
+
+.formulario legend {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700; /*bold*/
+    color: var(--primario);
+    margin: 0 auto 2rem auto;  /* 0 auto para que pueda alinearse correctamente al centro legend en Firefox */
+}
+
+
