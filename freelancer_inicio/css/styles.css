@@ -48,6 +48,11 @@ body {
     border-radius: 0.5rem;
     width: 90%;
     text-align: center;
+    border: none;
+}
+
+.boton:hover {
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -83,7 +88,25 @@ h1,h2,h3 {
     text-align: center;
 }
 
-/* Titulos */
+/*** Utilidades ***/
+.w-sm-100 {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .w-sm-100 {
+        width: auto;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.alinear-derecha {
+    justify-content: flex-end;
+}
+
+/*** Titulos ***/
 .titulo span {
     font-size: 2rem;
 }
@@ -214,4 +237,29 @@ h1,h2,h3 {
     margin: 0 auto 2rem auto;  /* 0 auto para que pueda alinearse correctamente al centro legend en Firefox */
 }
 
+.contenedor-campos {
 
+}
+
+.campo {
+ margin-bottom: 1rem;
+}
+
+.campo label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+
+}
+
+/* .campo input[type="text"],
+.campo input[type="tel"] {
+    background-color: red;
+} */
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
